@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { faHome, faCreditCard, faCalendarCheck } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -13,22 +14,22 @@ class Navbar extends Component {
       <nav className="navbar-left">
         <ul className="navbar-left__list left-menu">
           <li className="left-menu__item">
-            <a href="#">
+            <Link to="/">
               <FontAwesomeIcon className="fAw-l" icon={faHome} />
               Мой кабинет
-            </a>
+            </Link>
           </li>
           <li className="left-menu__item">
-            <a href="#">
+            <Link to="/activities">
               <FontAwesomeIcon className="fAw-l" icon={faCreditCard} />
               Активность
-            </a>
+            </Link>
           </li>
           <li className="left-menu__item">
-            <a href="#">
+            <Link to="/report">
               <FontAwesomeIcon className="fAw-l" icon={faCalendarCheck} />
               Расчет
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

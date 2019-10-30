@@ -6,6 +6,7 @@
   width: 400px;
   height: 100vh;
   box-shadow: 2px 0px 5px 0px #000;
+  background-color: #fff;
 }
 
 .user-card__info {
@@ -31,7 +32,7 @@
 .card__info__work-info {
   margin: 0;
   font-size: 16px;
-  color: #000;
+  color: #6d6b6b;
   width: 200px;
 }
 
@@ -79,13 +80,12 @@ Recent Transcations
 .recent-transactions {
   margin-top: 20px;
   text-align: center;
-  width: 325px;
 }
 
 .recent-transactions-list {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0 50px;
 }
 
 .transaction-list__item {
@@ -95,24 +95,32 @@ Recent Transcations
 .transaction-magazine__link {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .transaction-magazine__link:hover {
   text-decoration: none;
 }
 
-.transaction-magazine__icon {
+.transaction-magazine__wrapper {
+  display: flex;
+  align-items: center;
+  
+}
+
+.transaction-magazine__logo {
   margin-right: 20px;
+  width: 30px;
 }
 
 .transaction-magazine__name {
-  width: 100%;
+  font-weight: 700;
   margin: 0;
   text-align: left;
 }
 
 .transaction-magazine__value {
-  width: 55px;
+  
 }
 
 .transaction-magazine__value--minus {

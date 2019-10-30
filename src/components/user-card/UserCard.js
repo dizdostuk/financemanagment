@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import JohnKheho from "../../assets/employee.jpg";
-import { faAppleAlt } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import mcd from "../../assets/mcd.png";
+import apple from "../../assets/apple.png";
 import "./UserCard.css";
 
 class UserCard extends Component {
@@ -38,13 +38,25 @@ class UserCard extends Component {
           <ul className="recent-transactions-list transaction-list">
             <li className="transaction-list__item">
               <a href="#" className="transaction-magazine__link">
-                <FontAwesomeIcon icon={faAppleAlt} className="transaction-magazine__icon"/>
-                <p className="transaction-magazine__name">AppStore</p>
+                <p className="transaction-magazine__wrapper">
+                  <img src={apple} alt="" className="transaction-magazine__logo"/>
+                  <p className="transaction-magazine__name">AppStore</p>
+                </p>
+                <span className="transaction-magazine__value transaction-magazine__value--minus">-$14,90</span>
+              </a>
+            </li>
+            <li className="transaction-list__item">
+              <a href="#" className="transaction-magazine__link">
+                <p className="transaction-magazine__wrapper">
+                  <img src={mcd} alt="" className="transaction-magazine__logo"/>
+                  <p className="transaction-magazine__name">McDonalds</p>
+                </p>
                 <span className="transaction-magazine__value transaction-magazine__value--minus">-$14,90</span>
               </a>
             </li>
           </ul>
         </section>
+
       </section>
     );
   }
