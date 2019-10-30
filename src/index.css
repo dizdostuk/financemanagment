@@ -1,6 +1,14 @@
+@font-face {
+  font-family: 'PTSans';
+  src: local('PTSansBold'), url(./fonts/PTSans-Bold.ttf) format('ttf'),
+  local('PTSansBoldI'), url(./fonts/PTSans-BoldItalic.ttf) format('ttf'),
+  local('PTSans'), url(./fonts/PTSans-Regular.ttf) format('ttf'),
+  local('PTSansI'), url(./fonts/PTSans-Italic.ttf) format('ttf');
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  font-family: -apple-system, BlinkMacSystemFont,PtSans, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -18,4 +26,10 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.visually-hidden {
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0);
 }

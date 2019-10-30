@@ -1,0 +1,122 @@
+.user-card {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 400px;
+  height: 100vh;
+  box-shadow: 2px 0px 5px 0px #000;
+}
+
+.user-card__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+.card__info__img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.card__info__name {
+  margin-bottom: 0;
+  font-size: 22px;
+}
+
+.card__info__work-info {
+  margin: 0;
+  font-size: 16px;
+  color: #000;
+  width: 200px;
+}
+
+.user-finance {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.user-finance__wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.user-finance__balance {
+  width: 30%;
+  text-align: center;
+}
+
+.user-finance__title {
+  font-size: 18px;
+  color: #9e9e9e;
+  margin: 0;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.user-finance__balance span {
+  font-family: 'PT Sans', 'Roboto';
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.user-finance__balance .balance {
+  color: #000;
+}
+
+.user-finance__balance .changes {
+  color: #05d2a2;
+}
+
+/************************
+Recent Transcations
+************************/
+.recent-transactions {
+  margin-top: 20px;
+  text-align: center;
+  width: 325px;
+}
+
+.recent-transactions-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.transaction-list__item {
+  margin-bottom: 10px;
+}
+
+.transaction-magazine__link {
+  display: flex;
+  align-items: center;
+}
+
+.transaction-magazine__link:hover {
+  text-decoration: none;
+}
+
+.transaction-magazine__icon {
+  margin-right: 20px;
+}
+
+.transaction-magazine__name {
+  width: 100%;
+  margin: 0;
+  text-align: left;
+}
+
+.transaction-magazine__value {
+  width: 55px;
+}
+
+.transaction-magazine__value--minus {
+  font-size: 18px;
+  font-weight: 700;
+  color: #f34f4f;
+}
