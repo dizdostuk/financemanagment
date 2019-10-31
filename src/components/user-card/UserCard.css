@@ -1,12 +1,13 @@
 .user-card {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 30px;
+  right: 50px;
   bottom: 0;
   width: 400px;
-  height: 100vh;
-  box-shadow: 2px 0px 5px 0px #000;
+  height: 90vh;
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,.2);
   background-color: #fff;
+  border-radius: 7px;
 }
 
 .user-card__info {
@@ -117,10 +118,6 @@ Recent Transcations
   font-weight: 700;
   margin: 0;
   text-align: left;
-}
-
-.transaction-magazine__value {
-  
 }
 
 .transaction-magazine__value--minus {

@@ -2,14 +2,40 @@
   position: absolute;
   height: 100vh;
   left: 80px;
-  right: 400px;
+  right: 450px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .main-block__wrapper {
-  border: 1px solid;
   height: 435px;
   width: 500px;
+}
+
+.main-block-cards__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-block__activities {
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  width: 44%;
+  height: 150px;
+  padding: 10px;
+}
+
+.main-block__activities__sum {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #05d2a2;
+}
+
+.main-block__activities__sum--minus {
+  color: crimson;
+}
+
+.main-block__graph {
 }

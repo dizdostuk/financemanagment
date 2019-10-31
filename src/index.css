@@ -6,6 +6,11 @@
   url(./fonts/PTSans-Italic.ttf) format('ttf');
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   font-family: "PTSans", "Segoe UI", "Roboto", "Oxygen",
@@ -13,7 +18,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: #000; */
+  background-color: #f1faff;
 }
 
 p {
