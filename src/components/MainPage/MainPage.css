@@ -1,0 +1,15 @@
+.main-block {
+  position: absolute;
+  height: 100vh;
+  left: 80px;
+  right: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-block__wrapper {
+  border: 1px solid;
+  height: 435px;
+  width: 500px;
+}

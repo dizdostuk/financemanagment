@@ -15,19 +15,19 @@ class UserCard extends Component {
         <h2 className="visually-hidden">Карточка пользователя</h2>
         <div className="user-card__info card__info">
           <img className="card__info__img" src={JohnKheho} alt="User image"/>
-          <h4 className="card__info__name">John Kheho</h4>
-          <p className="card__info__work-info">Frontend Engeneer at Yandex.Taxi</p>
+          <h4 className="card__info__name">Улан Жусупов</h4>
+          <p className="card__info__work-info">Фронтенд Разработчик Яндекс.Такси</p>
         </div>
 
         <section className="user-finance">
           <h3 className="visually-hidden">Финансы пользователя</h3>
           <div className="user-finance__wrapper">
             <div className="user-finance__balance">
-              <h5 className="user-finance__title">Balance</h5>
-              <span className="balance">P 345 500</span>
+              <h5 className="user-finance__title">Баланс</h5>
+              <span className="balance">345 500Р</span>
             </div>
             <div className="user-finance__balance">
-              <h5 className="user-finance__title">Changes</h5>
+              <h5 className="user-finance__title">Изменения</h5>
               <span className="changes">+ 5.25%</span>
             </div>
           </div>
@@ -42,7 +42,7 @@ class UserCard extends Component {
                   <img src={apple} alt="" className="transaction-magazine__logo"/>
                   <p className="transaction-magazine__name">AppStore</p>
                 </p>
-                <span className="transaction-magazine__value transaction-magazine__value--minus">-$14,90</span>
+                <span className="transaction-magazine__value transaction-magazine__value--minus">-14,90Р</span>
               </a>
             </li>
             <li className="transaction-list__item">
@@ -51,7 +51,7 @@ class UserCard extends Component {
                   <img src={mcd} alt="" className="transaction-magazine__logo"/>
                   <p className="transaction-magazine__name">McDonalds</p>
                 </p>
-                <span className="transaction-magazine__value transaction-magazine__value--minus">-$14,90</span>
+                <span className="transaction-magazine__value transaction-magazine__value--minus">-14,90Р</span>
               </a>
             </li>
           </ul>
