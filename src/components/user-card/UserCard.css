@@ -125,3 +125,42 @@ Recent Transcations
   font-weight: 700;
   color: #f34f4f;
 }
+
+.new-transc {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.new-transc__title {
+  margin-bottom: 20px;
+}
+
+.transc__list {
+  width: auto;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.transc__inpt {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.transc__btns {
+  margin-top: 20px;
+}
+
+.transc__btn {
+  padding: 10px 15px;
+  background-color: #539e9a;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.transc__btn:hover {
+  background-color: #36615e;
+}

@@ -12,6 +12,10 @@
   height: 435px;
   width: 500px;
 }
+.main-block__wrapper h3 {
+  font-size: 16px;
+  margin: 10px;
+}
 
 .main-block-cards__wrapper {
   display: flex;
@@ -21,9 +25,21 @@
 .main-block__activities {
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
   background-color: #fff;
-  width: 44%;
+  width: 48%;
   height: 150px;
   padding: 10px;
+  position: relative;
+}
+
+.main-block__activities__sum__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .main-block__activities__sum {
@@ -38,4 +54,8 @@
 }
 
 .main-block__graph {
+  margin-top: 50px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  height: 250px;
+  padding: 10px;
 }
